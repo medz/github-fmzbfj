@@ -5,4 +5,7 @@ export default defineNuxtConfig({
     typescript: true,
     nitro: false,
   },
+  build: {
+    transpile: ['cookie-es'],
+  },
 });
