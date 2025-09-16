@@ -11,9 +11,16 @@ generator client {
     runtime    = "cloudflare"
 }
 
+generator c {
+    provider   = "prisma-client"
+    output     = "../../c/generated/prisma"
+    engineType = "client"
+    runtime    = "cloudflare"
+}
+
 datasource db {
-    provider = "postgresql"
-    url      = env("DATABASE_URL")
+    provider = "sqlite"
+    url      = "file:./dev.sqlite"
 }
 
 model User {

@@ -1,5 +1,5 @@
 {
-  "date": "2025-09-16T03:58:38.161Z",
+  "date": "2025-09-16T04:14:28.234Z",
   "preset": "cloudflare-dev",
   "framework": {
     "name": "nitro",
@@ -9,9 +9,9 @@
     "nitro": "2.12.6"
   },
   "dev": {
-    "pid": 11701,
+    "pid": 17123,
     "workerAddress": {
-      "socketPath": "/var/folders/gf/46z6v161517c7_h1zl31hj1m0000gn/T/nitro-worker-11701-1-1-3716.sock"
+      "socketPath": "/var/folders/gf/46z6v161517c7_h1zl31hj1m0000gn/T/nitro-worker-17123-1-1-3687.sock"
     }
   }
 }

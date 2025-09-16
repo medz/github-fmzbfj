@@ -1,6 +1,5 @@
-import { PrismaClient } from "a";
+import { prisma } from "a";
 
 export default defineEventHandler(event => {
-  const prisma = new PrismaClient();
   return prisma.user.findMany();
 });
