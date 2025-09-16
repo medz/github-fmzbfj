@@ -1,6 +1,6 @@
 {
   "name": "b",
-  "scripts": {"postinstall": "notro prepare", "dev": "nitro dev"},
+  "scripts": {"postinstall": "nitro prepare", "dev": "nitro dev"},
   "dependencies": {
     "a": "workspace:*",
     "nitropack": "^2.12.6"
