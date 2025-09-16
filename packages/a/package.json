@@ -1,0 +1,8 @@
+{
+  "name": "a",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@prisma/client": "^6.16.1",
+    "prisma": "^6.16.1"
+  }
+}

@@ -1,15 +1,6 @@
 {
-  "name": "nuxt-starter-bridge",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "nuxt2 build",
-    "dev": "nuxt2",
-    "generate": "nuxt2 generate"
-  },
-  "devDependencies": {
-    "@nuxt/bridge": "latest",
-    "nuxi": "3.12.0",
-    "nuxt": "2.18.1"
-  }
+  "name": "nitro_with_wasm",
+  "workspaces": [
+    "packages/*"
+  ]
 }

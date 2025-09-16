@@ -1,0 +1,17 @@
+{
+  "date": "2025-09-16T03:52:45.323Z",
+  "preset": "cloudflare-dev",
+  "framework": {
+    "name": "nitro",
+    "version": ""
+  },
+  "versions": {
+    "nitro": "2.12.6"
+  },
+  "dev": {
+    "pid": 10888,
+    "workerAddress": {
+      "socketPath": "/var/folders/gf/46z6v161517c7_h1zl31hj1m0000gn/T/nitro-worker-10888-1-1-1573.sock"
+    }
+  }
+}
